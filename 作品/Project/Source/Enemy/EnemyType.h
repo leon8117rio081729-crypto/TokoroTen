@@ -1,0 +1,13 @@
+﻿#pragma once
+
+enum EnemyType
+{
+	NORMAL_ENEMY,
+	LADDER_ENEMY,
+	HAMMER_ENEMY,
+	BAR_ENEMY,
+	SAW_ENEMY,
+	DRIVER_ENEMY,
+	ENEMY_TYPE_MAX,
+	ENEMY_TYPE_NONE = -1
+};

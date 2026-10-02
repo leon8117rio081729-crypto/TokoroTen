@@ -1,0 +1,714 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{063f4ceb-d950-4ab4-aed1-cc4d5f660b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Player">
+      <UniqueIdentifier>{31fb3ccb-1f2a-41f3-8dd1-01eec0fa9cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Camera">
+      <UniqueIdentifier>{f7a1c8b0-0bfa-473e-ad8b-2fe5d31d8aee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MyMath">
+      <UniqueIdentifier>{03717581-4a9c-44fe-afa9-c43d12e0a265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Input">
+      <UniqueIdentifier>{a65e06a1-30d7-4bf9-a2a4-98ce8e368d9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\FPS">
+      <UniqueIdentifier>{c26759df-799e-4bc6-aac7-a521f592765c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Collision">
+      <UniqueIdentifier>{2941d3ea-568d-4d8d-8707-720da747d00b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Goal">
+      <UniqueIdentifier>{db3344a4-925e-45c7-9be9-5f1581ffedbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy">
+      <UniqueIdentifier>{18134358-9b10-4a0b-8cfc-b1980422faa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{f24c426f-290e-4f93-aa48-20215b7e3d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Sound">
+      <UniqueIdentifier>{cb539d3e-3b9b-466b-b358-6b5e5d370424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Effect">
+      <UniqueIdentifier>{dd90228f-f0b8-4efc-b005-1da1b4323772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Button">
+      <UniqueIdentifier>{952d151d-e832-4367-b0b7-80648edd8621}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\EnemyShot">
+      <UniqueIdentifier>{b2eb157a-8a96-4caf-8b13-789657d38b84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Animation">
+      <UniqueIdentifier>{a89b0601-7751-4a06-979c-ad11db7afd51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Inventory">
+      <UniqueIdentifier>{7465bab4-b2d8-468a-952f-f382a41bc5f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item">
+      <UniqueIdentifier>{5df87d4c-d01c-4fdb-8ab8-376247b55766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Medicine">
+      <UniqueIdentifier>{35a9e8c3-b5e1-4114-9fd3-502f36461dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Blessing">
+      <UniqueIdentifier>{f8382ecd-e0a9-42da-bb62-38b20a1f1188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Weapon">
+      <UniqueIdentifier>{c0343318-73fd-40dc-86ff-2661c98109b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Treasure">
+      <UniqueIdentifier>{19c94784-d71b-4886-be18-9b69b773f9d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Medicine\Effect">
+      <UniqueIdentifier>{dde0dff6-54bb-46a9-af26-e2f2ea456ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Treasure\Effect">
+      <UniqueIdentifier>{63fc0f56-4e96-40eb-8223-0fb7d08bcea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy\ToolEnemy">
+      <UniqueIdentifier>{fd037d6f-bd4f-4fbf-9f7a-4db6502f3ddb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object">
+      <UniqueIdentifier>{fe220e3b-db56-45d2-9de4-051cada8bedf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Color">
+      <UniqueIdentifier>{dd9c134f-a291-4c0b-9f22-0821662b2c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Tool">
+      <UniqueIdentifier>{edf3f7db-582f-4df5-a83d-4263ba39a98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Tool\Effect">
+      <UniqueIdentifier>{97d9cb32-167d-4d94-8b32-f1bd000f9cda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Tool\Effect\Ladder">
+      <UniqueIdentifier>{70aab05a-bcf1-4476-894d-54f817d1d47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Tool\Effect\Hammer">
+      <UniqueIdentifier>{6e3db768-8446-4647-aa0d-3b3af59df98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy\ToolEnemy\Ladder">
+      <UniqueIdentifier>{27b21c1c-d43d-4e00-9176-001bbb36fc3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy\ToolEnemy\Hammer">
+      <UniqueIdentifier>{cf3a34f4-268e-4503-8fa8-11b309116134}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Tool\Effect\Bar">
+      <UniqueIdentifier>{e8d4bb65-6563-4bbe-9073-14e6d5b5d2be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Tool\Effect\Saw">
+      <UniqueIdentifier>{70378800-52a5-4444-83b9-fbff464202ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Item\Tool\Effect\Screwdriver">
+      <UniqueIdentifier>{bddb043e-941b-4f52-8f5b-da42d905909b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy\ToolEnemy\Screwdriver">
+      <UniqueIdentifier>{89f2c705-1a1f-4384-848c-8ff16511de12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy\ToolEnemy\Bar">
+      <UniqueIdentifier>{e061a09a-7067-4d32-9e5d-f10e49bc1c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Enemy\ToolEnemy\Saw">
+      <UniqueIdentifier>{c740f94b-7a43-4140-be27-d30c281c95fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Memory">
+      <UniqueIdentifier>{f559b395-80ac-4944-9228-e483c1483796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Gimmick">
+      <UniqueIdentifier>{5d4a29b5-69b7-4593-be37-61455ef8d972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Gimmick\Tool">
+      <UniqueIdentifier>{bf46829d-afca-411e-9ca9-19b30527808e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Gimmick\Tool\Ladder">
+      <UniqueIdentifier>{6d1bb859-eb9a-4e05-bd32-285d1dbc76c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Gimmick\Tool\Hammer">
+      <UniqueIdentifier>{cbceae67-ee5a-4f0d-aa9d-465ae725e3bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Gimmick\Tool\Bar&amp;Saw">
+      <UniqueIdentifier>{bf252688-39fa-4bed-812c-fc14be83c145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Gimmick\Tool\Screwdriver">
+      <UniqueIdentifier>{66e23654-4ea8-4086-9d02-b90e0f63eb5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Stage">
+      <UniqueIdentifier>{b556aa95-a93f-4a59-b5b4-0f3168db2eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\StageObject">
+      <UniqueIdentifier>{f3132f42-8dfa-4de2-b25a-f172fc2f8186}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\StageObject\Wall">
+      <UniqueIdentifier>{0e60a8d2-5096-4582-a124-af987de5abe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\StageObject\Door">
+      <UniqueIdentifier>{0d211bd1-0fab-460c-8fbb-d34508927027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\StageObject\Floor">
+      <UniqueIdentifier>{269fc6ae-ded8-4a1a-b71a-05661b6fe562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\StageObject\Ceiling">
+      <UniqueIdentifier>{de2730ec-8e71-4292-917f-69e5964baeb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\DeliveryBox">
+      <UniqueIdentifier>{3e2a50bd-98f7-4b30-ba91-d030b0807e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Object\Gimmick\Tool\Door">
+      <UniqueIdentifier>{31a86c22-5c8b-49aa-bea3-883cf8e42d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI">
+      <UniqueIdentifier>{a6994340-0821-4cd5-bce6-e7b5c82a8dea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Message">
+      <UniqueIdentifier>{173a9c5e-972f-49f8-94fb-5fcf1d76a1a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\UI\Scroll">
+      <UniqueIdentifier>{4d695bf3-60c7-4e72-8c61-688243b980f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ShadowMap">
+      <UniqueIdentifier>{3b6e14d1-437b-4e47-b53d-f4db8fc6a7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PlayerShot">
+      <UniqueIdentifier>{42ad149b-f7aa-47cc-89d9-54f68213c34c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\Player.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\Camera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player\PlayerManager.cpp">
+      <Filter>Source\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraManager.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MyMath\MyMath.cpp">
+      <Filter>Source\MyMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Input\Input.cpp">
+      <Filter>Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FPS\FPS.cpp">
+      <Filter>Source\FPS</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\CollisionAABB.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\CollisionManager.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\CollisionSphere.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goal\Goal.cpp">
+      <Filter>Source\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goal\GoalManager.cpp">
+      <Filter>Source\Goal</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\DebugCamera.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera\CameraBase.cpp">
+      <Filter>Source\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\EnemyBase.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\EnemyManager.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneManager.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\PlayScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\SceneBase.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\TitleScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sound\SoundManager.cpp">
+      <Filter>Source\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect\Effect.cpp">
+      <Filter>Source\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Effect\EffectManager.cpp">
+      <Filter>Source\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\ClearScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\GameOverScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button\Button.cpp">
+      <Filter>Source\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyShot\EnemyNormalShot.cpp">
+      <Filter>Source\EnemyShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyShot\EnemyShotBase.cpp">
+      <Filter>Source\EnemyShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EnemyShot\EnemyShotManager.cpp">
+      <Filter>Source\EnemyShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Animation\AnimationManager.cpp">
+      <Filter>Source\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Inventory\Inventory.cpp">
+      <Filter>Source\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\ItemManager.cpp">
+      <Filter>Source\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Medicine\MedicineItem.cpp">
+      <Filter>Source\Item\Medicine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Blessing\BlessingItem.cpp">
+      <Filter>Source\Item\Blessing</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Weapon\WeaponItem.cpp">
+      <Filter>Source\Item\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Treasure\TreasureItem.cpp">
+      <Filter>Source\Item\Treasure</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Medicine\Effect\Heal.cpp">
+      <Filter>Source\Item\Medicine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Medicine\Effect\Hp_Up.cpp">
+      <Filter>Source\Item\Medicine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Medicine\Effect\ItemEffect.cpp">
+      <Filter>Source\Item\Medicine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Medicine\Effect\Stamina_Up.cpp">
+      <Filter>Source\Item\Medicine\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Treasure\Effect\Treasure.cpp">
+      <Filter>Source\Item\Treasure\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scene\LoadingScene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Tool\ToolItem.cpp">
+      <Filter>Source\Item\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Tool\Effect\Ladder\Ladder.cpp">
+      <Filter>Source\Item\Tool\Effect\Ladder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\EnemyParamsLoader.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Tool\Effect\Hammer\Hammer.cpp">
+      <Filter>Source\Item\Tool\Effect\Hammer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\ToolEnemy\Ladder\LadderEnemy.cpp">
+      <Filter>Source\Enemy\ToolEnemy\Ladder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\ToolEnemy\Hammer\HammerEnemy.cpp">
+      <Filter>Source\Enemy\ToolEnemy\Hammer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Tool\Effect\Bar\Bar.cpp">
+      <Filter>Source\Item\Tool\Effect\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Tool\Effect\Screwdriver\Screwdriver.cpp">
+      <Filter>Source\Item\Tool\Effect\Screwdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Item\Tool\Effect\Saw\Saw.cpp">
+      <Filter>Source\Item\Tool\Effect\Saw</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\ToolEnemy\Bar\BarEnemy.cpp">
+      <Filter>Source\Enemy\ToolEnemy\Bar</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\ToolEnemy\Saw\SawEnemy.cpp">
+      <Filter>Source\Enemy\ToolEnemy\Saw</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\ToolEnemy\Screwdriver\ScrewdriverEnemy.cpp">
+      <Filter>Source\Enemy\ToolEnemy\Screwdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\GimmickBase.cpp">
+      <Filter>Source\Object\Gimmick\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\GimmickManager.cpp">
+      <Filter>Source\Object\Gimmick\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\Screwdriver\ScrewdriverGimmick.cpp">
+      <Filter>Source\Object\Gimmick\Tool\Screwdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\GimmickParamsLoader.cpp">
+      <Filter>Source\Object\Gimmick\Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\Bar&amp;Saw\Bar&amp;SawGimmick.cpp">
+      <Filter>Source\Object\Gimmick\Tool\Bar&amp;Saw</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\Hammer\HammerGimmick.cpp">
+      <Filter>Source\Object\Gimmick\Tool\Hammer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\Ladder\LadderGimmick.cpp">
+      <Filter>Source\Object\Gimmick\Tool\Ladder</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy\NormalEnemy.cpp">
+      <Filter>Source\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\StageObject\StageObject.cpp">
+      <Filter>Source\Object\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\StageObject\StageObjectManager.cpp">
+      <Filter>Source\Object\StageObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\StageObject\Floor\Floor.cpp">
+      <Filter>Source\Object\StageObject\Floor</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\StageObject\Wall\Wall.cpp">
+      <Filter>Source\Object\StageObject\Wall</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\StageObject\Door\Door.cpp">
+      <Filter>Source\Object\StageObject\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\StageObject\Ceiling\Ceiling.cpp">
+      <Filter>Source\Object\StageObject\Ceiling</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Stage\StageManager.cpp">
+      <Filter>Source\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Collision\CollisionOBB.cpp">
+      <Filter>Source\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DeliveryBox\DeliveryBox.cpp">
+      <Filter>Source\DeliveryBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\Door\DoorGimmick.cpp">
+      <Filter>Source\Object\Gimmick\Tool\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\Hammer\HammerGimmick_Side.cpp">
+      <Filter>Source\Object\Gimmick\Tool\Hammer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\Screwdriver\ScrewdriverGimmick_Side.cpp">
+      <Filter>Source\Object\Gimmick\Tool\Screwdriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\Door\DoorGimmick_Side.cpp">
+      <Filter>Source\Object\Gimmick\Tool\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object\Gimmick\Tool\Bar&amp;Saw\Bar&amp;SawGimmick_Side.cpp">
+      <Filter>Source\Object\Gimmick\Tool\Bar&amp;Saw</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Message\MessageManager.cpp">
+      <Filter>Source\UI\Message</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button\IconButton.cpp">
+      <Filter>Source\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UI\Scroll\ScrollManager.cpp">
+      <Filter>Source\UI\Scroll</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ShadowMap\ShadowMap.cpp">
+      <Filter>Source\ShadowMap</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerShot\PlayerNormalShot.cpp">
+      <Filter>Source\PlayerShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerShot\PlayerShotBase.cpp">
+      <Filter>Source\PlayerShot</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerShot\PlayerShotManager.cpp">
+      <Filter>Source\PlayerShot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Player\Player.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\Camera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player\PlayerManager.h">
+      <Filter>Source\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraManager.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MyMath\MyMath.h">
+      <Filter>Source\MyMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Input\Input.h">
+      <Filter>Source\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FPS\FPS.h">
+      <Filter>Source\FPS</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\CollisionAABB.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\CollisionManager.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\CollisionSphere.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goal\Goal.h">
+      <Filter>Source\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Goal\GoalManager.h">
+      <Filter>Source\Goal</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\DebugCamera.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera\CameraBase.h">
+      <Filter>Source\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\EnemyBase.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\EnemyManager.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\PlayScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneBase.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\TitleScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneManager.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\SceneParameter.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sound\SoundManager.h">
+      <Filter>Source\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect\Effect.h">
+      <Filter>Source\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Effect\EffectManager.h">
+      <Filter>Source\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\ClearScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\GameOverScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button\Button.h">
+      <Filter>Source\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyShot\EnemyNormalShot.h">
+      <Filter>Source\EnemyShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyShot\EnemyShotBase.h">
+      <Filter>Source\EnemyShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\EnemyShot\EnemyShotManager.h">
+      <Filter>Source\EnemyShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Animation\AnimationManager.h">
+      <Filter>Source\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\ScreenSize.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Inventory\Inventory.h">
+      <Filter>Source\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\ItemBase.h">
+      <Filter>Source\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\ItemManager.h">
+      <Filter>Source\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\ItemType.h">
+      <Filter>Source\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Medicine\MedicineItem.h">
+      <Filter>Source\Item\Medicine</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Blessing\BlessingItem.h">
+      <Filter>Source\Item\Blessing</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Weapon\WeaponItem.h">
+      <Filter>Source\Item\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\ItemObject.h">
+      <Filter>Source\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Treasure\TreasureItem.h">
+      <Filter>Source\Item\Treasure</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Medicine\Effect\Heal.h">
+      <Filter>Source\Item\Medicine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Medicine\Effect\Hp_Up.h">
+      <Filter>Source\Item\Medicine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Medicine\Effect\ItemEffect.h">
+      <Filter>Source\Item\Medicine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Medicine\Effect\Stamina_Up.h">
+      <Filter>Source\Item\Medicine\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Treasure\Effect\Treasure.h">
+      <Filter>Source\Item\Treasure\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene\LoadingScene.h">
+      <Filter>Source\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Color\Color.h">
+      <Filter>Source\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Tool\ToolItem.h">
+      <Filter>Source\Item\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Tool\Effect\Ladder\Ladder.h">
+      <Filter>Source\Item\Tool\Effect\Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\EnemyParams.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\EnemyParamsLoader.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Tool\Effect\Hammer\Hammer.h">
+      <Filter>Source\Item\Tool\Effect\Hammer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\ToolEnemy\Ladder\LadderEnemy.h">
+      <Filter>Source\Enemy\ToolEnemy\Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\ToolEnemy\Hammer\HammerEnemy.h">
+      <Filter>Source\Enemy\ToolEnemy\Hammer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Tool\Effect\Bar\Bar.h">
+      <Filter>Source\Item\Tool\Effect\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Tool\Effect\Screwdriver\Screwdriver.h">
+      <Filter>Source\Item\Tool\Effect\Screwdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Item\Tool\Effect\Saw\Saw.h">
+      <Filter>Source\Item\Tool\Effect\Saw</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\ToolEnemy\Bar\BarEnemy.h">
+      <Filter>Source\Enemy\ToolEnemy\Bar</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\ToolEnemy\Saw\SawEnemy.h">
+      <Filter>Source\Enemy\ToolEnemy\Saw</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\ToolEnemy\Screwdriver\ScrewdriverEnemy.h">
+      <Filter>Source\Enemy\ToolEnemy\Screwdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Memory\Memory.h">
+      <Filter>Source\Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\GimmickBase.h">
+      <Filter>Source\Object\Gimmick\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\GimmickManager.h">
+      <Filter>Source\Object\Gimmick\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\Screwdriver\ScrewdriverGimmick.h">
+      <Filter>Source\Object\Gimmick\Tool\Screwdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\GimmickParamsLoader.h">
+      <Filter>Source\Object\Gimmick\Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\Bar&amp;Saw\Bar&amp;SawGimmick.h">
+      <Filter>Source\Object\Gimmick\Tool\Bar&amp;Saw</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\Hammer\HammerGimmick.h">
+      <Filter>Source\Object\Gimmick\Tool\Hammer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\Ladder\LadderGimmick.h">
+      <Filter>Source\Object\Gimmick\Tool\Ladder</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\NormalEnemy.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\StageObject\StageObject.h">
+      <Filter>Source\Object\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\StageObject\StageObjectManager.h">
+      <Filter>Source\Object\StageObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\StageObject\Floor\Floor.h">
+      <Filter>Source\Object\StageObject\Floor</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\StageObject\Wall\Wall.h">
+      <Filter>Source\Object\StageObject\Wall</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\StageObject\Door\Door.h">
+      <Filter>Source\Object\StageObject\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\StageManager.h">
+      <Filter>Source\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Stage\StageParameter.h">
+      <Filter>Source\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\StageObject\Ceiling\Ceiling.h">
+      <Filter>Source\Object\StageObject\Ceiling</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Collision\CollisionOBB.h">
+      <Filter>Source\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DeliveryBox\DeliveryBox.h">
+      <Filter>Source\DeliveryBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\Door\DoorGimmick.h">
+      <Filter>Source\Object\Gimmick\Tool\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\Hammer\HammerGimmick_Side.h">
+      <Filter>Source\Object\Gimmick\Tool\Hammer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\Screwdriver\ScrewdriverGimmick_Side.h">
+      <Filter>Source\Object\Gimmick\Tool\Screwdriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\Door\DoorGimmick_Side.h">
+      <Filter>Source\Object\Gimmick\Tool\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object\Gimmick\Tool\Bar&amp;Saw\Bar&amp;SawGimmick_Side.h">
+      <Filter>Source\Object\Gimmick\Tool\Bar&amp;Saw</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Message\MessageManager.h">
+      <Filter>Source\UI\Message</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Button\IconButton.h">
+      <Filter>Source\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\UI\Scroll\ScrollManager.h">
+      <Filter>Source\UI\Scroll</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy\EnemyType.h">
+      <Filter>Source\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShadowMap\ShadowMap.h">
+      <Filter>Source\ShadowMap</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerShot\PlayerNormalShot.h">
+      <Filter>Source\PlayerShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerShot\PlayerShotBase.h">
+      <Filter>Source\PlayerShot</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\PlayerShot\PlayerShotManager.h">
+      <Filter>Source\PlayerShot</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
